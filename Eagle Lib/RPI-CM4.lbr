@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Generated from &lt;b&gt;RPI-CM4-TEST.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="RPI-CM4">
+<circle x="2.567" y="31" radius="1" width="0.127" layer="21"/>
+<wire x1="36.3" y1="38.44" x2="36.3" y2="35.56" width="0.127" layer="21"/>
+<wire x1="36.3" y1="35.56" x2="13.7" y2="35.56" width="0.127" layer="21"/>
+<wire x1="13.7" y1="35.56" x2="13.7" y2="38.44" width="0.127" layer="21"/>
+<wire x1="13.7" y1="38.44" x2="36.3" y2="38.44" width="0.127" layer="21"/>
+<wire x1="14.75" y1="1.25" x2="14.75" y2="0.75" width="0.127" layer="39"/>
+<wire x1="14.75" y1="0.75" x2="35.25" y2="0.75" width="0.127" layer="39"/>
+<wire x1="35.25" y1="0.75" x2="35.25" y2="1.25" width="0.127" layer="39"/>
+<wire x1="35.25" y1="1.25" x2="36.75" y2="1.25" width="0.127" layer="39"/>
+<wire x1="36.75" y1="1.25" x2="36.75" y2="4.75" width="0.127" layer="39"/>
+<wire x1="36.75" y1="4.75" x2="35.25" y2="4.75" width="0.127" layer="39"/>
+<wire x1="35.25" y1="4.75" x2="35.25" y2="5.25" width="0.127" layer="39"/>
+<wire x1="35.25" y1="5.25" x2="14.75" y2="5.25" width="0.127" layer="39"/>
+<wire x1="14.75" y1="5.25" x2="14.75" y2="4.75" width="0.127" layer="39"/>
+<wire x1="14.75" y1="4.75" x2="13.25" y2="4.75" width="0.127" layer="39"/>
+<wire x1="13.25" y1="4.75" x2="13.25" y2="1.25" width="0.127" layer="39"/>
+<wire x1="13.25" y1="1.25" x2="14.75" y2="1.25" width="0.127" layer="39"/>
+<wire x1="35.08" y1="38.44" x2="36.3" y2="38.44" width="0.127" layer="51"/>
+<wire x1="36.3" y1="38.44" x2="36.3" y2="35.56" width="0.127" layer="51"/>
+<wire x1="36.3" y1="35.56" x2="35.08" y2="35.56" width="0.127" layer="51"/>
+<wire x1="14.92" y1="35.56" x2="13.7" y2="35.56" width="0.127" layer="51"/>
+<wire x1="13.7" y1="35.56" x2="13.7" y2="38.44" width="0.127" layer="51"/>
+<wire x1="13.7" y1="38.44" x2="14.92" y2="38.44" width="0.127" layer="51"/>
+<wire x1="35.16" y1="38.9053" x2="35.1494" y2="38.9053" width="0.25" layer="51"/>
+<wire x1="35.1494" y1="38.9053" x2="35.1494" y2="38.9106" width="0.25" layer="51"/>
+<wire x1="25" y1="35.73" x2="25" y2="38.27" width="0.127" layer="51"/>
+<wire x1="26.27" y1="37" x2="23.73" y2="37" width="0.127" layer="51"/>
+<wire x1="36.3" y1="4.44" x2="36.3" y2="1.56" width="0.127" layer="21"/>
+<wire x1="36.3" y1="1.56" x2="13.7" y2="1.56" width="0.127" layer="21"/>
+<wire x1="13.7" y1="1.56" x2="13.7" y2="4.44" width="0.127" layer="21"/>
+<wire x1="13.7" y1="4.44" x2="36.3" y2="4.44" width="0.127" layer="21"/>
+<wire x1="35.08" y1="4.44" x2="36.3" y2="4.44" width="0.127" layer="51"/>
+<wire x1="36.3" y1="4.44" x2="36.3" y2="1.56" width="0.127" layer="51"/>
+<wire x1="36.3" y1="1.56" x2="35.08" y2="1.56" width="0.127" layer="51"/>
+<wire x1="14.92" y1="1.56" x2="13.7" y2="1.56" width="0.127" layer="51"/>
+<wire x1="13.7" y1="1.56" x2="13.7" y2="4.44" width="0.127" layer="51"/>
+<wire x1="13.7" y1="4.44" x2="14.92" y2="4.44" width="0.127" layer="51"/>
+<wire x1="35.16" y1="4.9053" x2="35.1494" y2="4.9053" width="0.25" layer="51"/>
+<wire x1="35.1494" y1="4.9053" x2="35.1494" y2="4.9106" width="0.25" layer="51"/>
+<wire x1="25" y1="1.73" x2="25" y2="4.27" width="0.127" layer="51"/>
+<wire x1="26.27" y1="3" x2="23.73" y2="3" width="0.127" layer="51"/>
+<wire x1="3.5" y1="0" x2="51.5" y2="0" width="0.127" layer="21"/>
+<wire x1="55" y1="3.5" x2="55" y2="36.5" width="0.127" layer="21"/>
+<wire x1="51" y1="40" x2="3.5" y2="40" width="0.127" layer="21"/>
+<wire x1="0" y1="36.5" x2="0" y2="29.5" width="0.127" layer="21"/>
+<wire x1="0" y1="29.5" x2="0" y2="18.5" width="0.127" layer="21"/>
+<wire x1="0" y1="18.5" x2="0" y2="3.5" width="0.127" layer="21"/>
+<wire x1="0" y1="3.5" x2="3.5" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="36.5" x2="3.5" y2="40" width="0.127" layer="21" curve="-90"/>
+<wire x1="51" y1="40" x2="55" y2="36.5" width="0.127" layer="21" curve="-82.874984"/>
+<wire x1="51.5" y1="0" x2="55" y2="3.5" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="18.5" x2="6.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="18.5" x2="6.5" y2="29.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="29.5" x2="0" y2="29.5" width="0.127" layer="21"/>
+<wire x1="39" y1="10" x2="39" y2="24" width="0.127" layer="21"/>
+<wire x1="39" y1="24" x2="25" y2="24" width="0.127" layer="21"/>
+<wire x1="25" y1="24" x2="25" y2="10" width="0.127" layer="21"/>
+<wire x1="25" y1="10" x2="39" y2="10" width="0.127" layer="21"/>
+<wire x1="14.75" y1="35.25" x2="14.75" y2="34.75" width="0.127" layer="39"/>
+<wire x1="14.75" y1="34.75" x2="35.25" y2="34.75" width="0.127" layer="39"/>
+<wire x1="35.25" y1="34.75" x2="35.25" y2="35.25" width="0.127" layer="39"/>
+<wire x1="35.25" y1="35.25" x2="36.75" y2="35.25" width="0.127" layer="39"/>
+<wire x1="36.75" y1="35.25" x2="36.75" y2="38.75" width="0.127" layer="39"/>
+<wire x1="36.75" y1="38.75" x2="35.25" y2="38.75" width="0.127" layer="39"/>
+<wire x1="35.25" y1="38.75" x2="35.25" y2="39.25" width="0.127" layer="39"/>
+<wire x1="35.25" y1="39.25" x2="14.75" y2="39.25" width="0.127" layer="39"/>
+<wire x1="14.75" y1="39.25" x2="14.75" y2="38.75" width="0.127" layer="39"/>
+<wire x1="14.75" y1="38.75" x2="13.25" y2="38.75" width="0.127" layer="39"/>
+<wire x1="13.25" y1="38.75" x2="13.25" y2="35.25" width="0.127" layer="39"/>
+<wire x1="13.25" y1="35.25" x2="14.75" y2="35.25" width="0.127" layer="39"/>
+<rectangle x1="15.08565" y1="3.7510875" x2="15.3" y2="4.19" layer="39"/>
+<rectangle x1="15.47529375" y1="3.75195" x2="15.7" y2="4.19" layer="39"/>
+<rectangle x1="15.8764" y1="3.75194375" x2="16.1" y2="4.19" layer="39"/>
+<rectangle x1="16.28106875" y1="3.751634375" x2="16.5" y2="4.189996875" layer="39"/>
+<rectangle x1="16.28483125" y1="1.80793125" x2="16.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="15.8783625" y1="1.80716875" x2="16.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="15.4855" y1="1.80819375" x2="15.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="15.08614375" y1="1.80834375" x2="15.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="16.68188125" y1="3.7516375" x2="16.9" y2="4.19" layer="39"/>
+<rectangle x1="17.08805" y1="3.751134375" x2="17.3" y2="4.189996875" layer="39"/>
+<rectangle x1="17.48804375" y1="3.751196875" x2="17.7" y2="4.189996875" layer="39"/>
+<rectangle x1="17.88968125" y1="3.7510875" x2="18.1" y2="4.19" layer="39"/>
+<rectangle x1="17.8862" y1="1.80768125" x2="18.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="17.4825625" y1="1.80723125" x2="17.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="17.08065" y1="1.80708125" x2="17.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="16.68146875" y1="1.80734375" x2="16.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="19.489" y1="1.80761875" x2="19.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="19.09484375" y1="1.8089625" x2="19.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="18.68096875" y1="1.8064" x2="18.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="18.2939625" y1="1.80891875" x2="18.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="21.09141875" y1="1.80738125" x2="21.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="20.68693125" y1="1.80638125" x2="20.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="20.29086875" y1="1.80768125" x2="20.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="19.8900625" y1="1.80768125" x2="20.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="21.49454375" y1="1.80815" x2="21.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="23.09659375" y1="1.80785" x2="23.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="22.6928625" y1="1.8063125" x2="22.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="22.29423125" y1="1.80745" x2="22.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="21.89338125" y1="1.80745" x2="22.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="24.6997875" y1="1.80914375" x2="24.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="24.29986875" y1="1.80978125" x2="24.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="23.89745" y1="1.80723125" x2="24.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="23.49686875" y1="1.80751875" x2="23.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="26.30143125" y1="1.80869375" x2="26.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="25.900940625" y1="1.8087625" x2="26.099996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="25.50106875" y1="1.8074625" x2="25.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="25.100240625" y1="1.80713125" x2="25.299996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="27.90451875" y1="1.80815" x2="28.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="27.50276875" y1="1.80868125" x2="27.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="27.10363125" y1="1.80794375" x2="27.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="26.702809375" y1="1.80804375" x2="26.899996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="28.305759375" y1="1.80793125" x2="28.499996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="29.90935" y1="1.80773125" x2="30.1" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="29.50848125" y1="1.80775" x2="29.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="29.104990625" y1="1.80855" x2="29.299996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="28.7107" y1="1.80655" x2="28.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="31.50638125" y1="1.80883125" x2="31.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="31.11043125" y1="1.8079625" x2="31.3" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="30.705009375" y1="1.80895" x2="30.899996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="30.309540625" y1="1.8078625" x2="30.499996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="33.121209375" y1="1.80688125" x2="33.299996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="32.718809375" y1="1.80709375" x2="32.899996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="32.31235" y1="1.80799375" x2="32.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="31.916709375" y1="1.80711875" x2="32.099996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="34.73" y1="1.80631875" x2="34.9" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="34.30466875" y1="1.8094" x2="34.5" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="33.917090625" y1="1.8077125" x2="34.099996875" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="33.53075" y1="1.8057" x2="33.7" y2="2.25" layer="39" rot="R180"/>
+<rectangle x1="23.49764375" y1="3.75118125" x2="23.7" y2="4.19" layer="39"/>
+<rectangle x1="23.89696875" y1="3.75206875" x2="24.1" y2="4.19" layer="39"/>
+<rectangle x1="24.2984875" y1="3.751625" x2="24.5" y2="4.19" layer="39"/>
+<rectangle x1="24.69921875" y1="3.7519625" x2="24.9" y2="4.19" layer="39"/>
+<rectangle x1="21.89173125" y1="3.752" x2="22.1" y2="4.19" layer="39"/>
+<rectangle x1="22.2944625" y1="3.7515375" x2="22.5" y2="4.19" layer="39"/>
+<rectangle x1="22.6938625" y1="3.752003125" x2="22.9" y2="4.189996875" layer="39"/>
+<rectangle x1="23.09538125" y1="3.751821875" x2="23.3" y2="4.189996875" layer="39"/>
+<rectangle x1="20.29523125" y1="3.7507625" x2="20.5" y2="4.19" layer="39"/>
+<rectangle x1="20.68989375" y1="3.7517625" x2="20.9" y2="4.19" layer="39"/>
+<rectangle x1="21.08983125" y1="3.75195625" x2="21.3" y2="4.19" layer="39"/>
+<rectangle x1="21.49194375" y1="3.751728125" x2="21.7" y2="4.189996875" layer="39"/>
+<rectangle x1="18.68951875" y1="3.751246875" x2="18.9" y2="4.189996875" layer="39"/>
+<rectangle x1="19.08205" y1="3.75228125" x2="19.3" y2="4.19" layer="39"/>
+<rectangle x1="19.48658125" y1="3.751828125" x2="19.7" y2="4.189996875" layer="39"/>
+<rectangle x1="19.89461875" y1="3.750790625" x2="20.1" y2="4.189996875" layer="39"/>
+<rectangle x1="18.2849" y1="3.751690625" x2="18.5" y2="4.189996875" layer="39"/>
+<rectangle x1="30.314959375" y1="3.752115625" x2="30.499996875" y2="4.189996875" layer="39"/>
+<rectangle x1="30.71376875" y1="3.7518125" x2="30.9" y2="4.19" layer="39"/>
+<rectangle x1="31.108" y1="3.75098125" x2="31.3" y2="4.19" layer="39"/>
+<rectangle x1="31.522440625" y1="3.752590625" x2="31.699996875" y2="4.189996875" layer="39"/>
+<rectangle x1="28.70833125" y1="3.7516875" x2="28.9" y2="4.19" layer="39"/>
+<rectangle x1="29.112459375" y1="3.752278125" x2="29.299996875" y2="4.189996875" layer="39"/>
+<rectangle x1="29.513540625" y1="3.75225625" x2="29.699996875" y2="4.19" layer="39"/>
+<rectangle x1="29.90838125" y1="3.751284375" x2="30.1" y2="4.189996875" layer="39"/>
+<rectangle x1="27.102909375" y1="3.7510375" x2="27.299996875" y2="4.19" layer="39"/>
+<rectangle x1="27.507440625" y1="3.75223125" x2="27.699996875" y2="4.19" layer="39"/>
+<rectangle x1="27.90601875" y1="3.75155625" x2="28.1" y2="4.19" layer="39"/>
+<rectangle x1="28.307309375" y1="3.7516625" x2="28.499996875" y2="4.19" layer="39"/>
+<rectangle x1="25.500790625" y1="3.751184375" x2="25.699996875" y2="4.189996875" layer="39"/>
+<rectangle x1="25.900203125" y1="3.75016875" x2="26.099996875" y2="4.19" layer="39"/>
+<rectangle x1="26.301359375" y1="3.7507875" x2="26.499996875" y2="4.19" layer="39"/>
+<rectangle x1="26.7044" y1="3.751940625" x2="26.9" y2="4.189996875" layer="39"/>
+<rectangle x1="25.100153125" y1="3.751146875" x2="25.299996875" y2="4.189996875" layer="39"/>
+<rectangle x1="33.907240625" y1="3.750609375" x2="34.099996875" y2="4.189996875" layer="39"/>
+<rectangle x1="34.323009375" y1="3.75185625" x2="34.499996875" y2="4.19" layer="39"/>
+<rectangle x1="34.733940625" y1="3.752625" x2="34.899996875" y2="4.19" layer="39"/>
+<rectangle x1="32.3117" y1="3.751203125" x2="32.5" y2="4.189996875" layer="39"/>
+<rectangle x1="32.71396875" y1="3.751359375" x2="32.9" y2="4.189996875" layer="39"/>
+<rectangle x1="33.11046875" y1="3.75096875" x2="33.3" y2="4.19" layer="39"/>
+<rectangle x1="33.5083" y1="3.750734375" x2="33.7" y2="4.189996875" layer="39"/>
+<rectangle x1="31.90916875" y1="3.750996875" x2="32.1" y2="4.189996875" layer="39"/>
+<rectangle x1="15.08565" y1="37.7510875" x2="15.3" y2="38.19" layer="39"/>
+<rectangle x1="15.47529375" y1="37.75195" x2="15.7" y2="38.19" layer="39"/>
+<rectangle x1="15.8764" y1="37.75194375" x2="16.1" y2="38.19" layer="39"/>
+<rectangle x1="16.28106875" y1="37.751634375" x2="16.5" y2="38.189996875" layer="39"/>
+<rectangle x1="16.28483125" y1="35.80793125" x2="16.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="15.8783625" y1="35.80716875" x2="16.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="15.4855" y1="35.80819375" x2="15.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="15.08614375" y1="35.80834375" x2="15.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="16.68188125" y1="37.7516375" x2="16.9" y2="38.19" layer="39"/>
+<rectangle x1="17.08805" y1="37.751134375" x2="17.3" y2="38.189996875" layer="39"/>
+<rectangle x1="17.48804375" y1="37.751196875" x2="17.7" y2="38.189996875" layer="39"/>
+<rectangle x1="17.88968125" y1="37.7510875" x2="18.1" y2="38.19" layer="39"/>
+<rectangle x1="17.8862" y1="35.80768125" x2="18.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="17.4825625" y1="35.80723125" x2="17.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="17.08065" y1="35.80708125" x2="17.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="16.68146875" y1="35.80734375" x2="16.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="19.489" y1="35.80761875" x2="19.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="19.09484375" y1="35.8089625" x2="19.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="18.68096875" y1="35.8064" x2="18.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="18.2939625" y1="35.80891875" x2="18.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="21.09141875" y1="35.80738125" x2="21.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="20.68693125" y1="35.80638125" x2="20.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="20.29086875" y1="35.80768125" x2="20.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="19.8900625" y1="35.80768125" x2="20.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="21.49454375" y1="35.80815" x2="21.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="23.09659375" y1="35.80785" x2="23.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="22.6928625" y1="35.8063125" x2="22.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="22.29423125" y1="35.80745" x2="22.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="21.89338125" y1="35.80745" x2="22.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="24.6997875" y1="35.80914375" x2="24.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="24.29986875" y1="35.80978125" x2="24.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="23.89745" y1="35.80723125" x2="24.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="23.49686875" y1="35.80751875" x2="23.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="26.30143125" y1="35.80869375" x2="26.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="25.900940625" y1="35.8087625" x2="26.099996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="25.50106875" y1="35.8074625" x2="25.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="25.100240625" y1="35.80713125" x2="25.299996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="27.90451875" y1="35.80815" x2="28.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="27.50276875" y1="35.80868125" x2="27.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="27.10363125" y1="35.80794375" x2="27.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="26.702809375" y1="35.80804375" x2="26.899996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="28.305759375" y1="35.80793125" x2="28.499996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="29.90935" y1="35.80773125" x2="30.1" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="29.50848125" y1="35.80775" x2="29.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="29.104990625" y1="35.80855" x2="29.299996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="28.7107" y1="35.80655" x2="28.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="31.50638125" y1="35.80883125" x2="31.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="31.11043125" y1="35.8079625" x2="31.3" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="30.705009375" y1="35.80895" x2="30.899996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="30.309540625" y1="35.8078625" x2="30.499996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="33.121209375" y1="35.80688125" x2="33.299996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="32.718809375" y1="35.80709375" x2="32.899996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="32.31235" y1="35.80799375" x2="32.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="31.916709375" y1="35.80711875" x2="32.099996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="34.73" y1="35.80631875" x2="34.9" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="34.30466875" y1="35.8094" x2="34.5" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="33.917090625" y1="35.8077125" x2="34.099996875" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="33.53075" y1="35.8057" x2="33.7" y2="36.25" layer="39" rot="R180"/>
+<rectangle x1="23.49764375" y1="37.75118125" x2="23.7" y2="38.19" layer="39"/>
+<rectangle x1="23.89696875" y1="37.75206875" x2="24.1" y2="38.19" layer="39"/>
+<rectangle x1="24.2984875" y1="37.751625" x2="24.5" y2="38.19" layer="39"/>
+<rectangle x1="24.69921875" y1="37.7519625" x2="24.9" y2="38.19" layer="39"/>
+<rectangle x1="21.89173125" y1="37.752" x2="22.1" y2="38.19" layer="39"/>
+<rectangle x1="22.2944625" y1="37.7515375" x2="22.5" y2="38.19" layer="39"/>
+<rectangle x1="22.6938625" y1="37.752003125" x2="22.9" y2="38.189996875" layer="39"/>
+<rectangle x1="23.09538125" y1="37.751821875" x2="23.3" y2="38.189996875" layer="39"/>
+<rectangle x1="20.29523125" y1="37.7507625" x2="20.5" y2="38.19" layer="39"/>
+<rectangle x1="20.68989375" y1="37.7517625" x2="20.9" y2="38.19" layer="39"/>
+<rectangle x1="21.08983125" y1="37.75195625" x2="21.3" y2="38.19" layer="39"/>
+<rectangle x1="21.49194375" y1="37.751728125" x2="21.7" y2="38.189996875" layer="39"/>
+<rectangle x1="18.68951875" y1="37.751246875" x2="18.9" y2="38.189996875" layer="39"/>
+<rectangle x1="19.08205" y1="37.75228125" x2="19.3" y2="38.19" layer="39"/>
+<rectangle x1="19.48658125" y1="37.751828125" x2="19.7" y2="38.189996875" layer="39"/>
+<rectangle x1="19.89461875" y1="37.750790625" x2="20.1" y2="38.189996875" layer="39"/>
+<rectangle x1="18.2849" y1="37.751690625" x2="18.5" y2="38.189996875" layer="39"/>
+<rectangle x1="30.314959375" y1="37.752115625" x2="30.499996875" y2="38.189996875" layer="39"/>
+<rectangle x1="30.71376875" y1="37.7518125" x2="30.9" y2="38.19" layer="39"/>
+<rectangle x1="31.108" y1="37.75098125" x2="31.3" y2="38.19" layer="39"/>
+<rectangle x1="31.522440625" y1="37.752590625" x2="31.699996875" y2="38.189996875" layer="39"/>
+<rectangle x1="28.70833125" y1="37.7516875" x2="28.9" y2="38.19" layer="39"/>
+<rectangle x1="29.112459375" y1="37.752278125" x2="29.299996875" y2="38.189996875" layer="39"/>
+<rectangle x1="29.513540625" y1="37.75225625" x2="29.699996875" y2="38.19" layer="39"/>
+<rectangle x1="29.90838125" y1="37.751284375" x2="30.1" y2="38.189996875" layer="39"/>
+<rectangle x1="27.102909375" y1="37.7510375" x2="27.299996875" y2="38.19" layer="39"/>
+<rectangle x1="27.507440625" y1="37.75223125" x2="27.699996875" y2="38.19" layer="39"/>
+<rectangle x1="27.90601875" y1="37.75155625" x2="28.1" y2="38.19" layer="39"/>
+<rectangle x1="28.307309375" y1="37.7516625" x2="28.499996875" y2="38.19" layer="39"/>
+<rectangle x1="25.500790625" y1="37.751184375" x2="25.699996875" y2="38.189996875" layer="39"/>
+<rectangle x1="25.900203125" y1="37.75016875" x2="26.099996875" y2="38.19" layer="39"/>
+<rectangle x1="26.301359375" y1="37.7507875" x2="26.499996875" y2="38.19" layer="39"/>
+<rectangle x1="26.7044" y1="37.751940625" x2="26.9" y2="38.189996875" layer="39"/>
+<rectangle x1="25.100153125" y1="37.751146875" x2="25.299996875" y2="38.189996875" layer="39"/>
+<rectangle x1="33.907240625" y1="37.750609375" x2="34.099996875" y2="38.189996875" layer="39"/>
+<rectangle x1="34.323009375" y1="37.75185625" x2="34.499996875" y2="38.19" layer="39"/>
+<rectangle x1="34.733940625" y1="37.752625" x2="34.899996875" y2="38.19" layer="39"/>
+<rectangle x1="32.3117" y1="37.751203125" x2="32.5" y2="38.189996875" layer="39"/>
+<rectangle x1="32.71396875" y1="37.751359375" x2="32.9" y2="38.189996875" layer="39"/>
+<rectangle x1="33.11046875" y1="37.75096875" x2="33.3" y2="38.19" layer="39"/>
+<rectangle x1="33.5083" y1="37.750734375" x2="33.7" y2="38.189996875" layer="39"/>
+<rectangle x1="31.90916875" y1="37.750996875" x2="32.1" y2="38.189996875" layer="39"/>
+<smd name="1" x="34.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="2" x="34.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="3" x="34.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="4" x="34.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="5" x="34" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="6" x="34" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="7" x="33.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="8" x="33.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="9" x="33.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="10" x="33.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="11" x="32.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="12" x="32.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="13" x="32.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="14" x="32.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="15" x="32" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="16" x="32" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="17" x="31.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="18" x="31.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="19" x="31.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="20" x="31.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="21" x="30.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="22" x="30.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="23" x="30.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="24" x="30.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="25" x="30" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="26" x="30" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="27" x="29.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="28" x="29.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="29" x="29.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="30" x="29.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="31" x="28.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="32" x="28.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="33" x="28.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="34" x="28.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="35" x="28" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="36" x="28" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="37" x="27.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="38" x="27.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="39" x="27.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="40" x="27.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="41" x="26.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="42" x="26.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="43" x="26.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="44" x="26.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="45" x="26" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="46" x="26" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="47" x="25.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="48" x="25.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="49" x="25.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="50" x="25.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="51" x="24.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="52" x="24.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="53" x="24.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="54" x="24.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="55" x="24" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="56" x="24" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="57" x="23.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="58" x="23.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="59" x="23.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="60" x="23.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="61" x="22.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="62" x="22.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="63" x="22.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="64" x="22.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="65" x="22" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="66" x="22" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="67" x="21.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="68" x="21.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="69" x="21.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="70" x="21.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="71" x="20.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="72" x="20.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="73" x="20.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="74" x="20.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="75" x="20" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="76" x="20" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="77" x="19.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="78" x="19.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="79" x="19.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="80" x="19.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="81" x="18.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="82" x="18.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="83" x="18.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="84" x="18.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="85" x="18" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="86" x="18" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="87" x="17.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="88" x="17.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="89" x="17.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="90" x="17.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="91" x="16.8" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="92" x="16.8" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="93" x="16.4" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="94" x="16.4" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="95" x="16" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="96" x="16" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="97" x="15.6" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="98" x="15.6" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="99" x="15.2" y="38.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="100" x="15.2" y="35.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="101" x="34.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="102" x="34.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="103" x="34.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="104" x="34.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="105" x="34" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="106" x="34" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="107" x="33.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="108" x="33.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="109" x="33.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="110" x="33.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="111" x="32.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="112" x="32.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="113" x="32.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="114" x="32.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="115" x="32" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="116" x="32" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="117" x="31.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="118" x="31.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="119" x="31.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="120" x="31.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="121" x="30.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="122" x="30.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="123" x="30.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="124" x="30.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="125" x="30" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="126" x="30" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="127" x="29.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="128" x="29.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="129" x="29.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="130" x="29.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="131" x="28.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="132" x="28.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="133" x="28.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="134" x="28.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="135" x="28" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="136" x="28" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="137" x="27.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="138" x="27.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="139" x="27.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="140" x="27.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="141" x="26.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="142" x="26.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="143" x="26.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="144" x="26.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="145" x="26" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="146" x="26" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="147" x="25.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="148" x="25.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="149" x="25.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="150" x="25.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="151" x="24.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="152" x="24.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="153" x="24.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="154" x="24.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="155" x="24" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="156" x="24" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="157" x="23.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="158" x="23.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="159" x="23.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="160" x="23.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="161" x="22.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="162" x="22.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="163" x="22.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="164" x="22.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="165" x="22" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="166" x="22" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="167" x="21.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="168" x="21.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="169" x="21.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="170" x="21.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="171" x="20.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="172" x="20.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="173" x="20.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="174" x="20.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="175" x="20" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="176" x="20" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="177" x="19.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="178" x="19.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="179" x="19.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="180" x="19.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="181" x="18.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="182" x="18.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="183" x="18.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="184" x="18.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="185" x="18" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="186" x="18" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="187" x="17.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="188" x="17.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="189" x="17.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="190" x="17.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="191" x="16.8" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="192" x="16.8" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="193" x="16.4" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="194" x="16.4" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="195" x="16" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="196" x="16" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="197" x="15.6" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="198" x="15.6" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<smd name="199" x="15.2" y="4.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="200" x="15.2" y="1.46" dx="0.2" dy="0.7" layer="1" rot="R180"/>
+<text x="8.835859375" y="41.2635" size="0.814359375" layer="25">&gt;NAME</text>
+<text x="2.83445" y="41.0067" size="0.8148875" layer="27">&gt;VALUE</text>
+<text x="4" y="32" size="1.27" layer="21" font="vector">UFL</text>
+<text x="4.5" y="20" size="1.27" layer="21" font="vector" rot="R90">Cutout'</text>
+<text x="30" y="17" size="1.27" layer="21" font="vector">SOC</text>
+<hole x="3.5" y="3.5" drill="2.55"/>
+<hole x="3.5" y="36.5" drill="2.55"/>
+<hole x="51" y="36.5" drill="2.55"/>
+<hole x="51.5" y="3.5" drill="2.55"/>
+<dimension x1="28" y1="3" x2="28" y2="0" x3="44" y3="1.5" textsize="1.27" layer="48"/>
+<dimension x1="29" y1="37" x2="29" y2="40" x3="45" y3="38.5" textsize="1.27" layer="48"/>
+<dimension x1="0" y1="44" x2="55" y2="44" x3="27.5" y3="48" textsize="1.27" layer="48"/>
+<dimension x1="51" y1="40" x2="51" y2="0" x3="59" y3="20" textsize="1.27" layer="48"/>
+<dimension x1="3.5" y1="36.5" x2="3.5" y2="40" x3="-3.5" y3="38.25" textsize="1.27" layer="48"/>
+<dimension x1="25" y1="0.5" x2="0" y2="0.5" x3="12.5" y3="-7" textsize="1.27" layer="48"/>
+<dimension x1="25" y1="-1" x2="3.5" y2="-1" x3="14.25" y3="-3.5" textsize="1.27" layer="48"/>
+<dimension x1="3.5" y1="3.5" x2="0" y2="3.5" x3="1.75" y3="-2" textsize="1.27" layer="48"/>
+<dimension x1="3.5" y1="3.5" x2="3.5" y2="0" x3="-7" y3="1.75" textsize="1.27" layer="48"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RPI-CM4-A">
+<wire x1="0" y1="0" x2="50.8" y2="0" width="0.254" layer="94"/>
+<wire x1="50.8" y1="0" x2="50.8" y2="129.54" width="0.254" layer="94"/>
+<wire x1="50.8" y1="129.54" x2="0" y2="129.54" width="0.254" layer="94"/>
+<wire x1="0" y1="129.54" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="!EXTRST" x="55.88" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="!RPIBOOT" x="-5.08" y="10.16" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@77" x="-5.08" y="30.48" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@79" x="-5.08" y="27.94" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@81" x="-5.08" y="25.4" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@83" x="-5.08" y="22.86" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@85" x="-5.08" y="20.32" length="middle" direction="pas"/>
+<pin name="+5V(INPUT)@87" x="-5.08" y="17.78" length="middle" direction="pas"/>
+<pin name="ANALOGP0" x="55.88" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="ANALOGP1" x="55.88" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="BT_!DISABLE" x="-5.08" y="12.7" length="middle" direction="pas"/>
+<pin name="CAMERA_GPIO" x="-5.08" y="5.08" length="middle" direction="pas"/>
+<pin name="CM4_1.8V(OUTPUT)@88" x="55.88" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="CM4_1.8V(OUTPUT)@90" x="55.88" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="CM4_3.3V(OUTPUT)@84" x="55.88" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="CM4_3.3V(OUTPUT)@86" x="55.88" y="20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="EEPROM_!WP" x="55.88" y="104.14" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_!LED1" x="-5.08" y="104.14" length="middle" direction="pas"/>
+<pin name="ETH_!LED2" x="-5.08" y="106.68" length="middle" direction="pas"/>
+<pin name="ETH_!LED3" x="-5.08" y="109.22" length="middle" direction="pas"/>
+<pin name="ETH_PAIR0_N" x="55.88" y="116.84" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_PAIR0_P" x="55.88" y="114.3" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_PAIR1_N" x="55.88" y="121.92" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_PAIR1_P" x="55.88" y="124.46" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_PAIR2_N" x="-5.08" y="116.84" length="middle" direction="pas"/>
+<pin name="ETH_PAIR2_P" x="-5.08" y="114.3" length="middle" direction="pas"/>
+<pin name="ETH_PAIR3_N" x="-5.08" y="121.92" length="middle" direction="pas"/>
+<pin name="ETH_PAIR3_P" x="-5.08" y="124.46" length="middle" direction="pas"/>
+<pin name="ETH_SYNC_IN" x="55.88" y="109.22" length="middle" direction="pas" rot="R180"/>
+<pin name="ETH_SYNC_OUT" x="55.88" y="106.68" length="middle" direction="pas" rot="R180"/>
+<pin name="GLOBAL_EN" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<pin name="GND@1" x="-5.08" y="127" length="middle" direction="pas"/>
+<pin name="GND@2" x="55.88" y="127" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@7" x="-5.08" y="119.38" length="middle" direction="pas"/>
+<pin name="GND@8" x="55.88" y="119.38" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@13" x="-5.08" y="111.76" length="middle" direction="pas"/>
+<pin name="GND@14" x="55.88" y="111.76" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@22" x="55.88" y="101.6" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@23" x="-5.08" y="99.06" length="middle" direction="pas"/>
+<pin name="GND@32" x="55.88" y="88.9" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@33" x="-5.08" y="86.36" length="middle" direction="pas"/>
+<pin name="GND@42" x="55.88" y="76.2" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@43" x="-5.08" y="73.66" length="middle" direction="pas"/>
+<pin name="GND@52" x="55.88" y="63.5" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@53" x="-5.08" y="60.96" length="middle" direction="pas"/>
+<pin name="GND@59" x="-5.08" y="53.34" length="middle" direction="pas"/>
+<pin name="GND@60" x="55.88" y="53.34" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@65" x="-5.08" y="45.72" length="middle" direction="pas"/>
+<pin name="GND@66" x="55.88" y="45.72" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@71" x="-5.08" y="38.1" length="middle" direction="pas"/>
+<pin name="GND@74" x="55.88" y="35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@98" x="55.88" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO2" x="55.88" y="55.88" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO3" x="55.88" y="58.42" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO4" x="55.88" y="60.96" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO5" x="55.88" y="86.36" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO6" x="55.88" y="91.44" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO7" x="-5.08" y="81.28" length="middle" direction="pas"/>
+<pin name="GPIO8" x="-5.08" y="78.74" length="middle" direction="pas"/>
+<pin name="GPIO9" x="55.88" y="78.74" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO10" x="55.88" y="73.66" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO11" x="55.88" y="81.28" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO12" x="-5.08" y="88.9" length="middle" direction="pas"/>
+<pin name="GPIO13" x="55.88" y="93.98" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO14" x="-5.08" y="58.42" length="middle" direction="pas"/>
+<pin name="GPIO15" x="-5.08" y="63.5" length="middle" direction="pas"/>
+<pin name="GPIO16" x="-5.08" y="91.44" length="middle" direction="pas"/>
+<pin name="GPIO17" x="55.88" y="66.04" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO18" x="-5.08" y="66.04" length="middle" direction="pas"/>
+<pin name="GPIO19" x="55.88" y="96.52" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO20" x="-5.08" y="93.98" length="middle" direction="pas"/>
+<pin name="GPIO21" x="-5.08" y="96.52" length="middle" direction="pas"/>
+<pin name="GPIO22" x="55.88" y="71.12" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO23" x="-5.08" y="68.58" length="middle" direction="pas"/>
+<pin name="GPIO24" x="-5.08" y="71.12" length="middle" direction="pas"/>
+<pin name="GPIO25" x="-5.08" y="76.2" length="middle" direction="pas"/>
+<pin name="GPIO26" x="55.88" y="99.06" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO27" x="55.88" y="68.58" length="middle" direction="pas" rot="R180"/>
+<pin name="GPIO_VREF" x="55.88" y="30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="ID_SC" x="-5.08" y="83.82" length="middle" direction="pas"/>
+<pin name="ID_SD" x="55.88" y="83.82" length="middle" direction="pas" rot="R180"/>
+<pin name="PI_!LED_ACTIVITY" x="-5.08" y="101.6" length="middle" direction="pas"/>
+<pin name="PI_LED_!PWR" x="-5.08" y="7.62" length="middle" direction="pas"/>
+<pin name="RESERVED@75" x="55.88" y="33.02" length="middle" direction="pas" rot="R180"/>
+<pin name="RUN_PG" x="55.88" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="SCL0" x="55.88" y="27.94" length="middle" direction="pas" rot="R180"/>
+<pin name="SDA0" x="55.88" y="25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_CLK" x="-5.08" y="55.88" length="middle" direction="pas"/>
+<pin name="SD_CMD" x="55.88" y="50.8" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_DAT0" x="-5.08" y="48.26" length="middle" direction="pas"/>
+<pin name="SD_DAT1" x="-5.08" y="43.18" length="middle" direction="pas"/>
+<pin name="SD_DAT2" x="-5.08" y="40.64" length="middle" direction="pas"/>
+<pin name="SD_DAT3" x="-5.08" y="50.8" length="middle" direction="pas"/>
+<pin name="SD_DAT4" x="55.88" y="43.18" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_DAT5" x="55.88" y="48.26" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_DAT6" x="55.88" y="38.1" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_DAT7" x="55.88" y="40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="SD_PWR_ON" x="-5.08" y="33.02" length="middle" direction="pas"/>
+<pin name="SD_VDD_OVERRIDE" x="-5.08" y="35.56" length="middle" direction="pas"/>
+<pin name="WL_!DISABLE" x="-5.08" y="15.24" length="middle" direction="pas"/>
+<text x="-0.01831875" y="129.6926" size="2.546109375" layer="95">&gt;NAME</text>
+<text x="-0.01625" y="-5.2318" size="2.54541875" layer="96">&gt;VALUE</text>
+<text x="20.32" y="63.5" size="12.7" layer="94" font="vector">A</text>
+</symbol>
+<symbol name="RPI-CM4-B">
+<wire x1="0" y1="0" x2="50.8" y2="0" width="0.254" layer="94"/>
+<wire x1="50.8" y1="0" x2="50.8" y2="129.54" width="0.254" layer="94"/>
+<wire x1="50.8" y1="129.54" x2="0" y2="129.54" width="0.254" layer="94"/>
+<wire x1="0" y1="129.54" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="CAM0_C_N" x="55.88" y="78.74" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM0_C_P" x="55.88" y="76.2" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM0_D0_N" x="55.88" y="93.98" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM0_D0_P" x="55.88" y="91.44" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM0_D1_N" x="55.88" y="86.36" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM0_D1_P" x="55.88" y="83.82" length="middle" direction="pas" rot="R180"/>
+<pin name="CAM1_C_N" x="-5.08" y="93.98" length="middle" direction="pas"/>
+<pin name="CAM1_C_P" x="-5.08" y="91.44" length="middle" direction="pas"/>
+<pin name="CAM1_D0_N" x="-5.08" y="109.22" length="middle" direction="pas"/>
+<pin name="CAM1_D0_P" x="-5.08" y="106.68" length="middle" direction="pas"/>
+<pin name="CAM1_D1_N" x="-5.08" y="101.6" length="middle" direction="pas"/>
+<pin name="CAM1_D1_P" x="-5.08" y="99.06" length="middle" direction="pas"/>
+<pin name="CAM1_D2_N" x="-5.08" y="86.36" length="middle" direction="pas"/>
+<pin name="CAM1_D2_P" x="-5.08" y="83.82" length="middle" direction="pas"/>
+<pin name="CAM1_D3_N" x="-5.08" y="78.74" length="middle" direction="pas"/>
+<pin name="CAM1_D3_P" x="-5.08" y="76.2" length="middle" direction="pas"/>
+<pin name="DSI0_C_N" x="-5.08" y="40.64" length="middle" direction="pas"/>
+<pin name="DSI0_C_P" x="-5.08" y="38.1" length="middle" direction="pas"/>
+<pin name="DSI0_D0_N" x="-5.08" y="55.88" length="middle" direction="pas"/>
+<pin name="DSI0_D0_P" x="-5.08" y="53.34" length="middle" direction="pas"/>
+<pin name="DSI0_D1_N" x="-5.08" y="48.26" length="middle" direction="pas"/>
+<pin name="DSI0_D1_P" x="-5.08" y="45.72" length="middle" direction="pas"/>
+<pin name="DSI1_C_N" x="-5.08" y="17.78" length="middle" direction="pas"/>
+<pin name="DSI1_C_P" x="-5.08" y="15.24" length="middle" direction="pas"/>
+<pin name="DSI1_D0_N" x="-5.08" y="33.02" length="middle" direction="pas"/>
+<pin name="DSI1_D0_P" x="-5.08" y="30.48" length="middle" direction="pas"/>
+<pin name="DSI1_D1_N" x="-5.08" y="25.4" length="middle" direction="pas"/>
+<pin name="DSI1_D1_P" x="-5.08" y="22.86" length="middle" direction="pas"/>
+<pin name="DSI1_D2_N" x="-5.08" y="10.16" length="middle" direction="pas"/>
+<pin name="DSI1_D2_P" x="-5.08" y="7.62" length="middle" direction="pas"/>
+<pin name="DSI1_D3_N" x="55.88" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="DSI1_D3_P" x="55.88" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@107" x="-5.08" y="119.38" length="middle" direction="pas"/>
+<pin name="GND@108" x="55.88" y="119.38" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@113" x="-5.08" y="111.76" length="middle" direction="pas"/>
+<pin name="GND@114" x="55.88" y="111.76" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@119" x="-5.08" y="104.14" length="middle" direction="pas"/>
+<pin name="GND@120" x="55.88" y="104.14" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@125" x="-5.08" y="96.52" length="middle" direction="pas"/>
+<pin name="GND@126" x="55.88" y="96.52" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@131" x="-5.08" y="88.9" length="middle" direction="pas"/>
+<pin name="GND@132" x="55.88" y="88.9" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@137" x="-5.08" y="81.28" length="middle" direction="pas"/>
+<pin name="GND@138" x="55.88" y="81.28" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@144" x="55.88" y="73.66" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@150" x="55.88" y="66.04" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@155" x="-5.08" y="58.42" length="middle" direction="pas"/>
+<pin name="GND@156" x="55.88" y="58.42" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@161" x="-5.08" y="50.8" length="middle" direction="pas"/>
+<pin name="GND@162" x="55.88" y="50.8" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@167" x="-5.08" y="43.18" length="middle" direction="pas"/>
+<pin name="GND@168" x="55.88" y="43.18" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@173" x="-5.08" y="35.56" length="middle" direction="pas"/>
+<pin name="GND@174" x="55.88" y="35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@179" x="-5.08" y="27.94" length="middle" direction="pas"/>
+<pin name="GND@180" x="55.88" y="27.94" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@185" x="-5.08" y="20.32" length="middle" direction="pas"/>
+<pin name="GND@186" x="55.88" y="20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@191" x="-5.08" y="12.7" length="middle" direction="pas"/>
+<pin name="GND@192" x="55.88" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@197" x="-5.08" y="5.08" length="middle" direction="pas"/>
+<pin name="GND@198" x="55.88" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_CEC" x="-5.08" y="63.5" length="middle" direction="pas"/>
+<pin name="HDMI0_CLK_N" x="55.88" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_CLK_P" x="55.88" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_HOTPLUG" x="-5.08" y="60.96" length="middle" direction="pas"/>
+<pin name="HDMI0_SCL" x="55.88" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_SDA" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<pin name="HDMI0_TX0_N" x="55.88" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_TX0_P" x="55.88" y="25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_TX1_N" x="55.88" y="30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_TX1_P" x="55.88" y="33.02" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_TX2_N" x="55.88" y="38.1" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI0_TX2_P" x="55.88" y="40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_CEC" x="-5.08" y="66.04" length="middle" direction="pas"/>
+<pin name="HDMI1_CLK_N" x="55.88" y="45.72" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_CLK_P" x="55.88" y="48.26" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_HOTPLUG" x="-5.08" y="73.66" length="middle" direction="pas"/>
+<pin name="HDMI1_SCL" x="-5.08" y="68.58" length="middle" direction="pas"/>
+<pin name="HDMI1_SDA" x="-5.08" y="71.12" length="middle" direction="pas"/>
+<pin name="HDMI1_TX0_N" x="55.88" y="53.34" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_TX0_P" x="55.88" y="55.88" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_TX1_N" x="55.88" y="60.96" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_TX1_P" x="55.88" y="63.5" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_TX2_N" x="55.88" y="68.58" length="middle" direction="pas" rot="R180"/>
+<pin name="HDMI1_TX2_P" x="55.88" y="71.12" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_!RST" x="-5.08" y="116.84" length="middle" direction="pas"/>
+<pin name="PCIE_CLK_!REQ" x="55.88" y="127" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_CLK_N" x="55.88" y="114.3" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_CLK_P" x="55.88" y="116.84" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_RX_N" x="55.88" y="106.68" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_RX_P" x="55.88" y="109.22" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_TX_N" x="55.88" y="99.06" length="middle" direction="pas" rot="R180"/>
+<pin name="PCIE_TX_P" x="55.88" y="101.6" length="middle" direction="pas" rot="R180"/>
+<pin name="RESERVED@104" x="55.88" y="124.46" length="middle" direction="pas" rot="R180"/>
+<pin name="RESERVED@106" x="55.88" y="121.92" length="middle" direction="pas" rot="R180"/>
+<pin name="USB_N" x="-5.08" y="124.46" length="middle" direction="pas"/>
+<pin name="USB_OTG_ID" x="-5.08" y="127" length="middle" direction="pas"/>
+<pin name="USB_P" x="-5.08" y="121.92" length="middle" direction="pas"/>
+<pin name="VDAC_COMP" x="-5.08" y="114.3" length="middle" direction="pas"/>
+<text x="-0.01831875" y="129.6926" size="2.546109375" layer="95">&gt;NAME</text>
+<text x="-0.01625" y="-5.2318" size="2.54541875" layer="96">&gt;VALUE</text>
+<text x="20.32" y="63.5" size="12.7" layer="94" font="vector">B</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RPI-CM4" prefix="RPI-CM4">
+<gates>
+<gate name="G$1" symbol="RPI-CM4-A" x="-76.2" y="-45.72"/>
+<gate name="G$2" symbol="RPI-CM4-B" x="17.78" y="-45.72"/>
+</gates>
+<devices>
+<device name="" package="RPI-CM4">
+<connects>
+<connect gate="G$1" pin="!EXTRST" pad="100"/>
+<connect gate="G$1" pin="!RPIBOOT" pad="93"/>
+<connect gate="G$1" pin="+5V(INPUT)@77" pad="77"/>
+<connect gate="G$1" pin="+5V(INPUT)@79" pad="79"/>
+<connect gate="G$1" pin="+5V(INPUT)@81" pad="81"/>
+<connect gate="G$1" pin="+5V(INPUT)@83" pad="83"/>
+<connect gate="G$1" pin="+5V(INPUT)@85" pad="85"/>
+<connect gate="G$1" pin="+5V(INPUT)@87" pad="87"/>
+<connect gate="G$1" pin="ANALOGP0" pad="96"/>
+<connect gate="G$1" pin="ANALOGP1" pad="94"/>
+<connect gate="G$1" pin="BT_!DISABLE" pad="91"/>
+<connect gate="G$1" pin="CAMERA_GPIO" pad="97"/>
+<connect gate="G$1" pin="CM4_1.8V(OUTPUT)@88" pad="88"/>
+<connect gate="G$1" pin="CM4_1.8V(OUTPUT)@90" pad="90"/>
+<connect gate="G$1" pin="CM4_3.3V(OUTPUT)@84" pad="84"/>
+<connect gate="G$1" pin="CM4_3.3V(OUTPUT)@86" pad="86"/>
+<connect gate="G$1" pin="EEPROM_!WP" pad="20"/>
+<connect gate="G$1" pin="ETH_!LED1" pad="19"/>
+<connect gate="G$1" pin="ETH_!LED2" pad="17"/>
+<connect gate="G$1" pin="ETH_!LED3" pad="15"/>
+<connect gate="G$1" pin="ETH_PAIR0_N" pad="10"/>
+<connect gate="G$1" pin="ETH_PAIR0_P" pad="12"/>
+<connect gate="G$1" pin="ETH_PAIR1_N" pad="6"/>
+<connect gate="G$1" pin="ETH_PAIR1_P" pad="4"/>
+<connect gate="G$1" pin="ETH_PAIR2_N" pad="9"/>
+<connect gate="G$1" pin="ETH_PAIR2_P" pad="11"/>
+<connect gate="G$1" pin="ETH_PAIR3_N" pad="5"/>
+<connect gate="G$1" pin="ETH_PAIR3_P" pad="3"/>
+<connect gate="G$1" pin="ETH_SYNC_IN" pad="16"/>
+<connect gate="G$1" pin="ETH_SYNC_OUT" pad="18"/>
+<connect gate="G$1" pin="GLOBAL_EN" pad="99"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@13" pad="13"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@22" pad="22"/>
+<connect gate="G$1" pin="GND@23" pad="23"/>
+<connect gate="G$1" pin="GND@32" pad="32"/>
+<connect gate="G$1" pin="GND@33" pad="33"/>
+<connect gate="G$1" pin="GND@42" pad="42"/>
+<connect gate="G$1" pin="GND@43" pad="43"/>
+<connect gate="G$1" pin="GND@52" pad="52"/>
+<connect gate="G$1" pin="GND@53" pad="53"/>
+<connect gate="G$1" pin="GND@59" pad="59"/>
+<connect gate="G$1" pin="GND@60" pad="60"/>
+<connect gate="G$1" pin="GND@65" pad="65"/>
+<connect gate="G$1" pin="GND@66" pad="66"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="GND@71" pad="71"/>
+<connect gate="G$1" pin="GND@74" pad="74"/>
+<connect gate="G$1" pin="GND@8" pad="8"/>
+<connect gate="G$1" pin="GND@98" pad="98"/>
+<connect gate="G$1" pin="GPIO10" pad="44"/>
+<connect gate="G$1" pin="GPIO11" pad="38"/>
+<connect gate="G$1" pin="GPIO12" pad="31"/>
+<connect gate="G$1" pin="GPIO13" pad="28"/>
+<connect gate="G$1" pin="GPIO14" pad="55"/>
+<connect gate="G$1" pin="GPIO15" pad="51"/>
+<connect gate="G$1" pin="GPIO16" pad="29"/>
+<connect gate="G$1" pin="GPIO17" pad="50"/>
+<connect gate="G$1" pin="GPIO18" pad="49"/>
+<connect gate="G$1" pin="GPIO19" pad="26"/>
+<connect gate="G$1" pin="GPIO2" pad="58"/>
+<connect gate="G$1" pin="GPIO20" pad="27"/>
+<connect gate="G$1" pin="GPIO21" pad="25"/>
+<connect gate="G$1" pin="GPIO22" pad="46"/>
+<connect gate="G$1" pin="GPIO23" pad="47"/>
+<connect gate="G$1" pin="GPIO24" pad="45"/>
+<connect gate="G$1" pin="GPIO25" pad="41"/>
+<connect gate="G$1" pin="GPIO26" pad="24"/>
+<connect gate="G$1" pin="GPIO27" pad="48"/>
+<connect gate="G$1" pin="GPIO3" pad="56"/>
+<connect gate="G$1" pin="GPIO4" pad="54"/>
+<connect gate="G$1" pin="GPIO5" pad="34"/>
+<connect gate="G$1" pin="GPIO6" pad="30"/>
+<connect gate="G$1" pin="GPIO7" pad="37"/>
+<connect gate="G$1" pin="GPIO8" pad="39"/>
+<connect gate="G$1" pin="GPIO9" pad="40"/>
+<connect gate="G$1" pin="GPIO_VREF" pad="78"/>
+<connect gate="G$1" pin="ID_SC" pad="35"/>
+<connect gate="G$1" pin="ID_SD" pad="36"/>
+<connect gate="G$1" pin="PI_!LED_ACTIVITY" pad="21"/>
+<connect gate="G$1" pin="PI_LED_!PWR" pad="95"/>
+<connect gate="G$1" pin="RESERVED@75" pad="76"/>
+<connect gate="G$1" pin="RUN_PG" pad="92"/>
+<connect gate="G$1" pin="SCL0" pad="80"/>
+<connect gate="G$1" pin="SDA0" pad="82"/>
+<connect gate="G$1" pin="SD_CLK" pad="57"/>
+<connect gate="G$1" pin="SD_CMD" pad="62"/>
+<connect gate="G$1" pin="SD_DAT0" pad="63"/>
+<connect gate="G$1" pin="SD_DAT1" pad="67"/>
+<connect gate="G$1" pin="SD_DAT2" pad="69"/>
+<connect gate="G$1" pin="SD_DAT3" pad="61"/>
+<connect gate="G$1" pin="SD_DAT4" pad="68"/>
+<connect gate="G$1" pin="SD_DAT5" pad="64"/>
+<connect gate="G$1" pin="SD_DAT6" pad="72"/>
+<connect gate="G$1" pin="SD_DAT7" pad="70"/>
+<connect gate="G$1" pin="SD_PWR_ON" pad="75"/>
+<connect gate="G$1" pin="SD_VDD_OVERRIDE" pad="73"/>
+<connect gate="G$1" pin="WL_!DISABLE" pad="89"/>
+<connect gate="G$2" pin="CAM0_C_N" pad="140"/>
+<connect gate="G$2" pin="CAM0_C_P" pad="142"/>
+<connect gate="G$2" pin="CAM0_D0_N" pad="128"/>
+<connect gate="G$2" pin="CAM0_D0_P" pad="130"/>
+<connect gate="G$2" pin="CAM0_D1_N" pad="134"/>
+<connect gate="G$2" pin="CAM0_D1_P" pad="136"/>
+<connect gate="G$2" pin="CAM1_C_N" pad="127"/>
+<connect gate="G$2" pin="CAM1_C_P" pad="129"/>
+<connect gate="G$2" pin="CAM1_D0_N" pad="115"/>
+<connect gate="G$2" pin="CAM1_D0_P" pad="117"/>
+<connect gate="G$2" pin="CAM1_D1_N" pad="121"/>
+<connect gate="G$2" pin="CAM1_D1_P" pad="123"/>
+<connect gate="G$2" pin="CAM1_D2_N" pad="133"/>
+<connect gate="G$2" pin="CAM1_D2_P" pad="135"/>
+<connect gate="G$2" pin="CAM1_D3_N" pad="139"/>
+<connect gate="G$2" pin="CAM1_D3_P" pad="141"/>
+<connect gate="G$2" pin="DSI0_C_N" pad="169"/>
+<connect gate="G$2" pin="DSI0_C_P" pad="171"/>
+<connect gate="G$2" pin="DSI0_D0_N" pad="157"/>
+<connect gate="G$2" pin="DSI0_D0_P" pad="159"/>
+<connect gate="G$2" pin="DSI0_D1_N" pad="163"/>
+<connect gate="G$2" pin="DSI0_D1_P" pad="165"/>
+<connect gate="G$2" pin="DSI1_C_N" pad="187"/>
+<connect gate="G$2" pin="DSI1_C_P" pad="189"/>
+<connect gate="G$2" pin="DSI1_D0_N" pad="175"/>
+<connect gate="G$2" pin="DSI1_D0_P" pad="177"/>
+<connect gate="G$2" pin="DSI1_D1_N" pad="181"/>
+<connect gate="G$2" pin="DSI1_D1_P" pad="183"/>
+<connect gate="G$2" pin="DSI1_D2_N" pad="193"/>
+<connect gate="G$2" pin="DSI1_D2_P" pad="195"/>
+<connect gate="G$2" pin="DSI1_D3_N" pad="194"/>
+<connect gate="G$2" pin="DSI1_D3_P" pad="196"/>
+<connect gate="G$2" pin="GND@107" pad="107"/>
+<connect gate="G$2" pin="GND@108" pad="108"/>
+<connect gate="G$2" pin="GND@113" pad="113"/>
+<connect gate="G$2" pin="GND@114" pad="114"/>
+<connect gate="G$2" pin="GND@119" pad="119"/>
+<connect gate="G$2" pin="GND@120" pad="120"/>
+<connect gate="G$2" pin="GND@125" pad="125"/>
+<connect gate="G$2" pin="GND@126" pad="126"/>
+<connect gate="G$2" pin="GND@131" pad="131"/>
+<connect gate="G$2" pin="GND@132" pad="132"/>
+<connect gate="G$2" pin="GND@137" pad="137"/>
+<connect gate="G$2" pin="GND@138" pad="138"/>
+<connect gate="G$2" pin="GND@144" pad="144"/>
+<connect gate="G$2" pin="GND@150" pad="150"/>
+<connect gate="G$2" pin="GND@155" pad="155"/>
+<connect gate="G$2" pin="GND@156" pad="156"/>
+<connect gate="G$2" pin="GND@161" pad="161"/>
+<connect gate="G$2" pin="GND@162" pad="162"/>
+<connect gate="G$2" pin="GND@167" pad="167"/>
+<connect gate="G$2" pin="GND@168" pad="168"/>
+<connect gate="G$2" pin="GND@173" pad="173"/>
+<connect gate="G$2" pin="GND@174" pad="174"/>
+<connect gate="G$2" pin="GND@179" pad="179"/>
+<connect gate="G$2" pin="GND@180" pad="180"/>
+<connect gate="G$2" pin="GND@185" pad="185"/>
+<connect gate="G$2" pin="GND@186" pad="186"/>
+<connect gate="G$2" pin="GND@191" pad="191"/>
+<connect gate="G$2" pin="GND@192" pad="192"/>
+<connect gate="G$2" pin="GND@197" pad="197"/>
+<connect gate="G$2" pin="GND@198" pad="198"/>
+<connect gate="G$2" pin="HDMI0_CEC" pad="151"/>
+<connect gate="G$2" pin="HDMI0_CLK_N" pad="190"/>
+<connect gate="G$2" pin="HDMI0_CLK_P" pad="188"/>
+<connect gate="G$2" pin="HDMI0_HOTPLUG" pad="153"/>
+<connect gate="G$2" pin="HDMI0_SCL" pad="200"/>
+<connect gate="G$2" pin="HDMI0_SDA" pad="199"/>
+<connect gate="G$2" pin="HDMI0_TX0_N" pad="184"/>
+<connect gate="G$2" pin="HDMI0_TX0_P" pad="182"/>
+<connect gate="G$2" pin="HDMI0_TX1_N" pad="178"/>
+<connect gate="G$2" pin="HDMI0_TX1_P" pad="176"/>
+<connect gate="G$2" pin="HDMI0_TX2_N" pad="172"/>
+<connect gate="G$2" pin="HDMI0_TX2_P" pad="170"/>
+<connect gate="G$2" pin="HDMI1_CEC" pad="149"/>
+<connect gate="G$2" pin="HDMI1_CLK_N" pad="166"/>
+<connect gate="G$2" pin="HDMI1_CLK_P" pad="164"/>
+<connect gate="G$2" pin="HDMI1_HOTPLUG" pad="143"/>
+<connect gate="G$2" pin="HDMI1_SCL" pad="147"/>
+<connect gate="G$2" pin="HDMI1_SDA" pad="145"/>
+<connect gate="G$2" pin="HDMI1_TX0_N" pad="160"/>
+<connect gate="G$2" pin="HDMI1_TX0_P" pad="158"/>
+<connect gate="G$2" pin="HDMI1_TX1_N" pad="154"/>
+<connect gate="G$2" pin="HDMI1_TX1_P" pad="152"/>
+<connect gate="G$2" pin="HDMI1_TX2_N" pad="148"/>
+<connect gate="G$2" pin="HDMI1_TX2_P" pad="146"/>
+<connect gate="G$2" pin="PCIE_!RST" pad="109"/>
+<connect gate="G$2" pin="PCIE_CLK_!REQ" pad="102"/>
+<connect gate="G$2" pin="PCIE_CLK_N" pad="112"/>
+<connect gate="G$2" pin="PCIE_CLK_P" pad="110"/>
+<connect gate="G$2" pin="PCIE_RX_N" pad="118"/>
+<connect gate="G$2" pin="PCIE_RX_P" pad="116"/>
+<connect gate="G$2" pin="PCIE_TX_N" pad="124"/>
+<connect gate="G$2" pin="PCIE_TX_P" pad="122"/>
+<connect gate="G$2" pin="RESERVED@104" pad="104"/>
+<connect gate="G$2" pin="RESERVED@106" pad="106"/>
+<connect gate="G$2" pin="USB_N" pad="103"/>
+<connect gate="G$2" pin="USB_OTG_ID" pad="101"/>
+<connect gate="G$2" pin="USB_P" pad="105"/>
+<connect gate="G$2" pin="VDAC_COMP" pad="111"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
